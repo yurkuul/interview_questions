@@ -31,7 +31,7 @@
  * @since 17.0.1
  * @version 0.0.1
  */
-public class FindMaximum {
+public class FindMaximumIteration1 {
     public static void main(String[] args) {
         System.out.println("Maximum of 1, 2, 3 is " + findMaximum(1, 2, 3));
         System.out.println("Maximum of 6, 4, 5 is " + findMaximum(6, 4, 5));
