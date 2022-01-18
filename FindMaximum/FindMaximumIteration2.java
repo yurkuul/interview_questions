@@ -33,12 +33,28 @@ package FindMaximum;
  * @since 17.0.1
  * @version 0.0.1
  */
-public class FindMaximumIteration1 {
+public class FindMaximumIteration2 {
     public static void main(String[] args) {
-        System.out.println("Maximum of 1, 2, 3 is " + findMaximum(1, 2, 3));
-        System.out.println("Maximum of 6, 4, 5 is " + findMaximum(6, 4, 5));
-        System.out.println("Maximum of 7, 9, 8 is " + findMaximum(7, 9, 8));
-        System.out.println("Maximum of 10, 10, 10 is " + findMaximum(10, 10, 10));
+        if(args.length > 1){
+            /*
+                We will work with this in iteration 3
+            */
+        }else{
+            /*
+                Let's ask the user to enter some numbers here.
+            */
+
+            if(true /* If the user gives us numbers */ ){
+
+            }else{
+                /* Demo output if user doesn't enter any numbers */
+
+                System.out.println("Maximum of 1, 2, 3 is " + findMaximum(1, 2, 3));
+                System.out.println("Maximum of 6, 4, 5 is " + findMaximum(6, 4, 5));
+                System.out.println("Maximum of 7, 9, 8 is " + findMaximum(7, 9, 8));
+                System.out.println("Maximum of 10, 10, 10 is " + findMaximum(10, 10, 10));
+            }
+        }
     }
 
     /**
